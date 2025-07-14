@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color:rgb(247, 247, 247);
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    height: 75px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    z-index: 1;
+
+}
+.iconp{
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    color:#8b8b8b;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.iconp1{
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgba(30,120,225,255);
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+    border-bottom: 5px solid;
+    border-color: rgba(30,120,225,255);
+    background-color: white;
+ }
+.suit{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.suitcase{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.suitletter{
+    font-size: 13px;
+}
+
+.logbtn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 2px solid rgba(30,120,225,255);
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+#usericon{
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+#login{
+    font-size: 14px;
+    font-weight:650;
+    color: rgba(30,120,225,255);
+    margin-right: 20px;
+
+}
+/* navbar css end here */
+
+/* body box css */
+.mainbody{
+    background: url(https://go-assets.ibcdn.com/u/GI/images/1715677875363-bg-dweb.webp);
+    background-color:rgb(247, 247, 247);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    width: auto;
+
+}
+
+
+.mainbody h2{
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px 10px 0px;
+    font-weight:600;
+}
+
+/* main box first feild */
+.firstbox{
+    width: 1200px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 10px auto;
+    
+
+
+   
+}
+
+.firstbox .oneway{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgba(232,241,252,255);
+    color: rgba(30,120,225,255);
+    font-size: 16px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.firstbox label{
+    cursor: pointer;
+}
+.firstbox .other2{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight:bold;
+    color: #b0b0b2;
+    cursor: pointer;
+    
+    
+}
+
+/* main box second line */
+.boxsecondline{
+  margin-top: 30px;
+  margin-left: -20px;
+  margin-right: -30px;
+  display: flex;
+  height: 80px;
+}
+.boxsecondline span.twoway{
+    /* twoway button */
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    border-radius: 12px;
+    background-color: white;
+    height: 38px;
+    width: 38px;
+    position:absolute;
+    left: 335px;
+    top: 240px;
+    cursor: pointer;
+}
+.boxsecondline .twoway img{
+    padding: 10px 10px ;
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+.boxsecondline label.text1{
+    /* from text */
+    font-size: 15px;
+    color: #8b8b8b ;
+    font-weight: 600;
+    position: relative;
+    left:35px;
+    bottom: 10px;
+    background-color: white;
+    padding: 0px 2px;
+    z-index: 1;
+
+}
+.boxsecondline input.input1{
+    /* from box */
+    border:2px #e4e0e0 solid;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 30px 50px 30px 20px;
+    border-radius: 9px;
+    margin-left: -15px;
+    cursor: pointer;
+}
+.boxsecondline input.input1:hover{
+    border-color: black;
+}
+.boxsecondline label.textto{
+    /* to text */
+    font-size: 14px;
+    color: #8b8b8b ;
+    font-weight: 600;
+    position: relative;
+    left:23px;
+    bottom: 10px;
+    background-color: white;
+    padding: 2px;
+
+}
+.boxsecondline input.inputto{
+    /* to box */
+    border:2px #e4e0e0 solid;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 30px 50px 30px 25px;
+    border-radius: 9px;
+    margin-left: -7px;
+    cursor: pointer;
+
+}
+.boxsecondline input.inputto:hover{
+    border-color: black;
+}
+
+.boxsecondline label.text2{
+    /* departure text */
+    font-size: 15px;
+    color: #8b8b8b ;
+    font-weight: 500;
+    position: relative;
+    left:25px;
+    bottom: 10px;
+    background-color: white;
+    padding: 2px;
+
+}
+.boxsecondline input.input2{
+    /* departure box */
+    border:2px #e4e0e0 solid;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 30px 10px 30px 10px;
+    border-radius: 9px;
+    margin-left: -62px;
+    cursor: pointer;
+}
+.boxsecondline input.input2:hover{
+    border-color: black;
+}
+.boxsecondline .input3{
+    /* return box  */
+    border:2px #e4e0e0 solid;
+    color: #919192 ;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: default;
+    height: auto;
+    width :110px;
+    overflow-wrap: break-word;
+    margin-left: -38px ;
+    border-radius: 9px;
+    padding:15px 25px 15px 15px;
+    cursor: pointer;
+}
+.boxsecondline .input3:hover{
+    border-color: black;
+}
+
+.boxsecondline .text3{ 
+    /* return text */
+    font-size: 15px;
+    color: #8b8b8b ;
+    font-weight: 500;
+    position: relative;
+    left:23px;
+    bottom: 10px;
+    background-color: white;
+    padding: 2px;
+}
+
+.boxsecondline span.input4{
+    /* travel box */
+    border:2px #e4e0e0 solid;
+    font-size: 20px;
+    font-weight: 650;
+    padding:15px 0px 10px 20px; 
+    border-radius: 9px;
+    margin-left: -104px;
+    width: 290px;
+    cursor: pointer;
+
+}
+.boxsecondline span.input4:hover{
+    border-color: black;
+}
+.boxsecondline #economy{
+     font-size: 14px;
+    color: #8b8b8b ;
+    font-weight: 400;
+    
+}
+.boxsecondline label.text4{
+    /*travel text */
+    font-size: 15px;
+    color: #8b8b8b ;
+    font-weight: 500;
+    position: relative;
+    left:25px;
+    bottom: 10px;
+    background-color: white;
+    padding: 2px;
+}
+    /* third box starting
+    .................... */
+
+.bodythirdline{
+    display: flex;
+    justify-content: space-evenly ;
+    margin-top: 20px;
+    align-items: center;
+    padding:0px 5px;
+    background: linear-gradient(120deg, rgb(208, 250, 230) 0%, rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 35px;
+   
+}
+
+.checkbox1{
+     border:1px #e4e0e0 solid;
+    padding:10px;
+    border-radius: 5px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+.checkmark {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  
+}
+
+.boxtext{
+    display: flex;
+    align-items: center;
+    
+
+
+}
+.boxtext1{
+    font-size:15px;
+    font-weight: 500;
+}
+.boxtext2{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.checkbox1 img{
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+.firstgreen{
+    text-align: center;
+}
+.moreben{
+    font-size: 13px;
+    font-weight: 700;
+    background: linear-gradient(100deg, #9c77ff 0%,#6d07fc 100%);
+    padding: 2px 15px 2px 10px;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 10px;
+}
+.special{
+    font-size: 21px;
+    font-weight: 700;
+    padding:0px 10px 20px 0px;
+
+}
+.flights p{ 
+    font-size: 18px;
+    font-weight: 790;
+    padding: 15px 50px;
+    border-radius: 30px;
+    background-color:#ff6d38;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    cursor: pointer;
+}
+.flights p:hover{
+    background-color:#e66333;
+}
+
+.flights {
+display: flex;
+justify-content: center;
+}
+.secondbox{
+     width: 1200px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 140px auto;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    color: #222222;
+}
